@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Visit-Zimbabwe</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="logo"><h1>L || M</h1></div>
+			<div class="topnav" id="myTopnav">
+				<a href="#home" class="active">Home</a>
+				<a href="#news">News</a>
+				<a href="#contact">Contact</a>
+				<a href="#about">About</a>
+				<a href="#about">Flights</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</nav>
+		<main>
+			<section>
+				<h3><b>Welcome To Zimbabwe</b></h3>
+				<h1>COME & VISIT <span class="change_content"> </span></h1>
+				<p><b>"Zimbabwe possess World's Wonders"</b></p>
+				<a href="https://en.wikipedia.org/wiki/Tourism_in_Zimbabwe" class="btnone">learn more</a>
+			</section>
+		</main>
+	</header>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+	<!-- This Website was created by Eng. Livingstone Mazvovere  __  Email. mazvoverelivingstone@gmail.com<br> -->
+</body>
+
+</html>
